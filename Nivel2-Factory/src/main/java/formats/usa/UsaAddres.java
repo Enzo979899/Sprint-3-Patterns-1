@@ -1,12 +1,12 @@
-package formats.USA;
+package formats.usa;
 
 import formats.AddressData;
 import interfaces.Address;
 
-public class USAAddres implements Address {
+public class UsaAddres implements Address {
     private final AddressData data;
 
-    public USAAddres(AddressData data) {
+    public UsaAddres(AddressData data) {
         this.data = data;
     }
 

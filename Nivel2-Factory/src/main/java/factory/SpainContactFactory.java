@@ -1,8 +1,8 @@
 package factory;
 
 import formats.AddressData;
-import formats.Spain.SpainAddress;
-import formats.Spain.SpainPhone;
+import formats.spain.SpainAddress;
+import formats.spain.SpainPhone;
 import interfaces.Address;
 import interfaces.Phone;
 

@@ -1,19 +1,19 @@
 package factory;
 
 import formats.AddressData;
-import formats.USA.USAAddres;
-import formats.USA.USAPhone;
+import formats.usa.UsaAddres;
+import formats.usa.UsaPhone;
 import interfaces.Address;
 import interfaces.Phone;
 
-public class USAContactFactory implements ContactFactory {
+public class UsaContactFactory implements ContactFactory {
     @Override
     public Address createAdress(AddressData data) {
-        return new USAAddres(data);
+        return new UsaAddres(data);
     }
 
     @Override
     public Phone createPhone(String number) {
-        return new USAPhone(number);
+        return new UsaPhone(number);
     }
 }

@@ -1,12 +1,12 @@
-package formats.Spain;
+package formats.usa;
 
 import interfaces.Phone;
 
-public class SpainPhone implements Phone {
-    private static final String PREFIX = "+34 ";
+public class UsaPhone implements Phone {
+    private static final String PREFIX = "+1 ";
     private final String numero;
 
-    public SpainPhone(String numero) {
+    public UsaPhone(String numero) {
         this.numero = numero;
     }
 

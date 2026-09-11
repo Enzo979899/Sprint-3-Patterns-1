@@ -1,5 +1,5 @@
 import factory.SpainContactFactory;
-import factory.USAContactFactory;
+import factory.UsaContactFactory;
 import formats.AddressData;
 import org.junit.jupiter.api.Test;
 
@@ -26,7 +26,7 @@ public class ContactTest {
         AddressData addressData = new AddressData("Example Street", "New York", "NY",
                 "10001");
 
-        Contact contact = new Contact(new USAContactFactory(), addressData, "2125551234");
+        Contact contact = new Contact(new UsaContactFactory(), addressData, "2125551234");
 
         assertEquals("Example Street, New York, NY 10001", contact.getDireccion());
 

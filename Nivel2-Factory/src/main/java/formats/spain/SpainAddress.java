@@ -1,9 +1,7 @@
-package formats.Spain;
+package formats.spain;
 
 import formats.AddressData;
 import interfaces.Address;
-
-import java.net.spi.InetAddressResolver;
 
 public class SpainAddress  implements Address {
     private final AddressData data;

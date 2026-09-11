@@ -1,5 +1,5 @@
 import factory.SpainContactFactory;
-import factory.USAContactFactory;
+import factory.UsaContactFactory;
 import formats.AddressData;
 
 public class Launcher {
@@ -31,7 +31,7 @@ public class Launcher {
         );
 
         Contact contactoUSA = new Contact(
-                new USAContactFactory(),
+                new UsaContactFactory(),
                 direccionUSA,
                 "2125551234"
         );
